@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little_Fox</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="display()">
+        <div class="top">
+            <div class="header">
+                <div>
+                    <h1>LITTLE FOX</h1>
+                </div>
+                <div>
+                    <img src="NicePng_head-png_249386.png" alt="Little_Fox" class="logo">
+                </div>
+            </div>
+            <div class="blogwrpper">
+                <div class="bwleft" id="displayarea">
+                </div>
+                <div class="bwright">
+                    <form >
+                        <label for="title"><b>TITLE :</b></label>
+                        <input type="text" name="title" id="title">
+                        <label for="desc"><b>DESCRIPTION :</b></label>
+                        <textarea name="desc" id="desc" ></textarea>
+                        <input type="file" onchange="input()">
+                        <div class="submitButton">
+                            <button type="submit" onclick="input()">UPLOAD</button>
+                        </div>
+                        
+                        <!--<div id="card"></div>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
