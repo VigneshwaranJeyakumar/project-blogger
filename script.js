@@ -96,8 +96,9 @@
             {
                 deleteBlog.splice(clicked_id,1);
                 localStorage.setItem("blog",JSON.stringify(deleteBlog)); 
-                var list = document.getElementById("card"); 
-                list.style.display='none';
+/*                 var list = document.getElementById("card"); 
+                list.style.display='none'; */
+                location.reload();
                 return true;
             } 
          }
